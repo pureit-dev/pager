@@ -1,13 +1,16 @@
-import { useState } from 'react'
+import { useState } from "react"
+import Pager from "./components/pager/pager.component"
+import Phone from "./components/phone/phone.component"
 
-import './App.css'
+import "./App.css"
 
 function App() {
-  
-
-  return (
-    <h1>App</h1>
-  )
+	return (
+		<main>
+			<Pager />
+			<Phone />
+		</main>
+	)
 }
 
 export default App
