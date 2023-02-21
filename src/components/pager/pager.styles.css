@@ -1,14 +1,18 @@
 .pager-title{
     color: #F8F8F8;
     font-size: 2rem;
+    margin: 20px 0;
 }
 
 .pager-display-container{
     background-color: #9EC4B3;
-    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
-    width: 75%;
-    height: 30px;
+    width: 95%;
+    height: 70px;
+    margin: 0 10px;
 }
 
 .pager-display-text{
@@ -22,7 +26,6 @@
     flex-direction: column;
     align-items: center;
     background: #283033;
-    padding: 0 0 20px;
-    /* width: 100%; */
+    padding: 0 0 10px;
     margin-bottom: 100px;
 }

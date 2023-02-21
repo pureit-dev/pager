@@ -19,6 +19,9 @@ SEND BUTTON BACKGROUND: #3D9C7C
 SEND BUTTON TEXT COLOR: #0B0B0B
 */
 
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     margin: 0;

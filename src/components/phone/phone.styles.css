@@ -8,10 +8,13 @@
 
 .phone-display-container{
     background-color: #444444;
-    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
-    width: 75%;
-    height: 30px;
+    width: 95%;
+    height: 70px;
+    margin: 0 10px;
 }
 
 .phone-display-text{
@@ -24,11 +27,14 @@
 .phone-title{
     color: #000;
     font-size: 2rem;
+    margin: 20px 0 0;
 }
 
 .num-container{
-    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
     gap: 10px;
+    margin: 0 10px;
 }

@@ -1,0 +1,28 @@
+.send-button,
+.reset-button {
+    
+    font-family: inherit;
+    padding: 10px 0;
+    cursor: pointer;
+    width: 95%;
+}
+
+.reset-button{
+    color: #fff;
+    background: #BE482A;
+    border: 3px solid #000000;      
+}
+
+.send-button{
+    background: #3D9C7C;
+    border: 3px solid #000000;
+    margin-bottom: 10px;
+}
+
+.reset-button:hover{
+    background: #f66f36;
+}
+
+.send-button:hover{
+    background: #486f68;
+}
